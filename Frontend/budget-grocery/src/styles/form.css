@@ -1,0 +1,74 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.form-header {
+  padding: 10px;
+  text-align: center;
+}
+
+.btnForm-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnForm {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.btnForm:hover {
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnBlack {
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+.btnBlack:hover {
+  color: black;
+  border: 2px solid black;
+}
+
+.btnRed {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+}
+
+.btnRed:hover{
+  color: #e74c3c;
+  border: 2px solid #e74c3c;
+}
+
+.btnBlue {
+  background-color: #3498db;
+  border: none;
+  color: white;
+}
+
+.btnBlue:hover{
+  color: #3498db;
+  border: 2px solid #3498db;
+}
+
+.headerBlack{
+  color: black;
+}
+
+.headerRed{
+  color: #e74c3c;
+}
+
